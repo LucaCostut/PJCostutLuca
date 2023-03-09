@@ -1,4 +1,7 @@
 package Lab1;
+
+import java.util.Arrays;
+
 class Parabola {
     private  double a;
     private  double b;
@@ -34,6 +37,8 @@ class Parabola {
         
         double[] mijloc = {xMij,yMij};
         
+        
+        System.out.println("Midpoint coordinates: " + Arrays.toString(mijloc));
         return mijloc;
     }
     public static double lungime (Parabola p1,Parabola p2)
